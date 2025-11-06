@@ -1,11 +1,17 @@
+## Log
+| Nome            |   Data     | JIRA    | Obs                                                       |  
+|-----------------|------------|---------|-----------------------------------------------------------|
+|Matheus Amorim   | 06/11/2025 | TT-8337 | Criação da Customização.                                  |  
+
+
 # MVC-Meta-Faturamento-Protheus
 Módulo customizado para cadastro de meta de faturamento.
 
-## Tabela Customizada
+# Tabela Customizada
 
 Z2A - Metas de Faturamento
 
-## Campos
+# Campos
 
 | Campo       |   Tipo   | Tamanho | Decimal |      Formato         |
 |-------------|----------|---------|---------|----------------------|
