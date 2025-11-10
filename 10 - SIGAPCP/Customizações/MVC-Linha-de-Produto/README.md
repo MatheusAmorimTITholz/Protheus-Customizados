@@ -29,3 +29,20 @@ Z1A_DESC
 A linha de produto será cadastrada na tabela de produto (SB1) como campo B1_XLIN e será utilizado a consulta padrão para trazer as descrições da linha ativa. 
 
 B1_XLIN validação: `ExistCPO( "Z1A", M->B1_LIN)`
+
+## Modelo DER
+
+### Código DBML
+```dbml
+Table Z1A {
+  Z1A_FILIAL NUMBER
+  Z1A_DESC VARCHAR
+  Z1A_ATIVO VARCHAR
+}
+
+Table SB1 {
+  B1_XLIN VARCHAR
+}
+
+Ref: Z1A.Z1A_DESC > SB1.B1_XLIN
+
